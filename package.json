@@ -1,0 +1,27 @@
+{
+  "name": "opendeepl",
+  "description": "Free DeepL Translate parser for testing.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "2.0.0"
+  },
+  "engines": {
+    "node": "10.17.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Naomi-Developers/OpenDeepL.git"
+  },
+  "keywords": [
+    "snapshot",
+    "web",
+    "rest-api"
+  ],
+  "author": "The-Naomi-Developers",
+  "license": "MIT",
+  "homepage": "https://github.com/The-Naomi-Developers/OpenDeepL#readme"
+}

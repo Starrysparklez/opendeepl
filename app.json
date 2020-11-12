@@ -1,0 +1,28 @@
+{
+  "name": "OpenDeepL",
+  "description": "OpenDeepL is a free DeepL Trnalator parser.",
+  "repository": "https://github.com/The-Naomi-Developers/OpenDeepL",
+  "website": "https://naomi.life",
+  "keywords": ["node", "translator", "translate", "web"],
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git"
+    }
+  ],
+  "env": {
+    "PORT": {
+      "description": "Web server port",
+      "value": "80",
+      "required": true
+    },
+    "COOLDOWN": {
+      "description": "Cooldown between requests (milliseconds)",
+      "value": "1500",
+      "required": false
+    }
+  }
+}
