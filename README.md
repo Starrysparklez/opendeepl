@@ -1,5 +1,7 @@
 ## OpenDeepL
-OpenDeepL is a simple DeepL Translator parser that allows you to translate text using Headless Chromium and .
+OpenDeepL is a simple DeepL Translator parser that allows you to translate text using Headless Chromium.
+
+**Use it at your own risk. The project was created for educational purposes.**
 
 Used libraries:
 * http

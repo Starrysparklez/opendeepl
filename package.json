@@ -17,9 +17,11 @@
     "url": "git+https://github.com/The-Naomi-Developers/OpenDeepL.git"
   },
   "keywords": [
-    "snapshot",
-    "web",
-    "rest-api"
+    "rest-api",
+    "translator",
+    "translate",
+    "free",
+    "parser"
   ],
   "author": "The-Naomi-Developers",
   "license": "MIT",
